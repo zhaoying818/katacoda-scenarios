@@ -1,11 +1,11 @@
 {
-  "title": "Hello World Scenario",
-  "description": "Your First Scenario",
-  "difficulty": "beginner",
-  "time": "2 minutes",
+  "title": "使用 Jenkins 构建 Go 项目",
+  "description": "使用 Jenkins Pipeline 构建 Go 项目",
+  "difficulty": "初学者",
+  "time": "20-30 分钟",
   "details": {
     "steps": [{
-      "title": "Step 1 - Run Command",
+      "title": "Step 1 - Jenkins install & config",
       "text": "step1.md"
     }],
     "intro": {

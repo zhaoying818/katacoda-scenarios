@@ -1,7 +1,9 @@
-This is your first step.
+## 安装和启动 Jenkins
 
-## Task
+使用如下命令启动 Jenkins 容器(这里使用了中文定制版 Jenkins)：
 
-This is an _example_ of creating a scenario and running a **command**
-
-`echo 'Hello World'`{{execute}}
+`docker run -u root \ 
+    -v /var/jenkins/data:/var/jenkins_home \
+    -p 8080:8080 \
+    jenkinszh/jenkins-zh:lts`
+{{execute}}
