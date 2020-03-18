@@ -2,7 +2,7 @@
 
 1.使用如下命令启动 Jenkins 容器(这里使用了中文定制版 Jenkins)：
 
-`docker run --rm -p 8080:8080 jenkinszh/jenkins-zh:lts`{{execute}}
+`docker run -d -p 8080:8080 jenkinszh/jenkins-zh:lts`{{execute}}
 
 2.你可以通过下面 URL 打开 Jenkins Dashboard：
 `https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/`{{open}}
