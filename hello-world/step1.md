@@ -6,7 +6,7 @@
 `https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/`{{open}}
 
 3.通过管理员密码解锁 Jenkins
-`/var/jenkins_home/secrets/initialAdminPassword`{{execute}}
+`cat jenkins_home/secrets/initialAdminPassword`{{execute}}
 命令的执行结果就是步骤2的所需的管理员密码
 
 4.Jenkins 可能需要一点时间来完成启动并准备就绪，在接下来的步骤中，您将使用 Dashboard 开始构建 Maven 项目。
